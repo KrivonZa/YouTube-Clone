@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube.com Clone</title>
+    <link rel="shortcut icon" type="image/x-icon" href="icons/YouTube-Full-Color-Logo.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-session">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <a class="youtube-home-link" href="youtube.html" target="_self">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </a>
+        </div>
+        <div class="middle-session">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-session">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-app-icon-container">
+                <img class="youtube-app-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notification-icon-container">
+                <img class="notification-icon" src="icons/notifications.svg">
+                <div class="notification-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="current-user-picture" src="channel-pictures/main-channel.jpg">
+        </div>
+    </header>
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg">
+            <div>Library</div>
+        </div>
+    </nav>
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=15vjuuIsafI" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                    </a>
+                    <div class="video-time">4:09</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@adtdouyin" target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=15vjuuIsafI" target="_self">
+                            <p class="video-title"><!--JORDANN - Dehors(Slowed)-->f83hv4jfud-9y501738-eud83</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@adtdouyin" target="_self">
+                            <p class="video-author">Adt Douyinღ</p>
+                        </a>
+                        <p class="video-stats">207K views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=qo6DjDkafSg" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                    </a>
+                    <div class="video-time">3:17</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@JVKE" target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=qo6DjDkafSg" target="_self">
+                            <p class="video-title">JVKE - this is what winter feels like</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@JVKE" target="_self">
+                            <p class="video-author">JVKE</p>
+                        </a>
+                        <p class="video-stats">1.1M views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                    </a>
+                    <div class="video-time">6:31:23</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@SuperSimpleDev" target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc" target="_self">
+                            <p class="video-title">HTML & CSS Full Course - Beginner to Pro</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@SuperSimpleDev" target="_self">
+                            <p class="video-author">SuperSimpleDev</p>
+                        </a>
+                        <p class="video-stats">9.5M views &#183; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=lOKASgtr6kU" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                    </a>
+                    <div class="video-time">15:03</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@MrBeast" target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=lOKASgtr6kU" target="_self">
+                            <p class="video-title">I Saved 100 Dogs From Dying</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@MrBeast" target="_self">
+                            <p class="video-author">MrBeast</p>
+                        </a>
+                        <p class="video-stats">164M views &#183; 3 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=8ZjFAhQjGzY" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+                    </a>
+                    <div class="video-time">1:05:30</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@CodingEagle_OFFICIAL"
+                            target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=8ZjFAhQjGzY" target="_self">
+                            <p class="video-title">You're Coding The Next Big Thing (Playlist For Programmers)</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@CodingEagle_OFFICIAL"
+                            target="_self">
+                            <p class="video-author">Coding Eagle</p>
+                        </a>
+                        <p class="video-stats">516K views &#183; 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=JdFRjsEZrmU" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                    </a>
+                    <div class="video-time">20:37</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@MarkRober" target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=JdFRjsEZrmU" target="_self">
+                            <p class="video-title">Acid vs Lava- Testing Liquids That Melt Everything</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@MarkRober" target="_self">
+                            <p class="video-author">Mark Rober</p>
+                        </a>
+                        <p class="video-stats">51M views &#183; 5 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=ErMSHiQRnc8" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                    </a>
+                    <div class="video-time">16:08</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@alanbecker" target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=ErMSHiQRnc8" target="_self">
+                            <p class="video-title">Animation vs. Physics</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@alanbecker" target="_self">
+                            <p class="video-author">Alan Becker</p>
+                        </a>
+                        <p class="video-stats">20M views &#183; 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=DXT9dF-WK-I" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+                    </a>
+                    <div class="video-time">4:08:18</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@abaointokyo" target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=DXT9dF-WK-I" target="_self">
+                            <p class="video-title">4-HOUR STUDY WITH ME🌦️ / calm piano / A Rainy Day in Shinjuku, Tokyo
+                                /
+                                with
+                                countdown+alarm</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@abaointokyo" target="_self">
+                            <p class="video-author">Abao in Tokyo</p>
+                        </a>
+                        <p class="video-stats">7.8M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=CkzpGJJsenY" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+                    </a>
+                    <div class="video-time">4:23</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@residenteviljenesis"
+                            target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-9.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=CkzpGJJsenY" target="_self">
+                            <p class="video-title">I CAN'T STOP THE LONELINESS 悲しいがとまらない Anri (Animation)</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@residenteviljenesis" target="_self">
+                            <p class="video-author">AlexTheSchutz</p>
+                        </a>
+                        <p class="video-stats">285K views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=eLJLNshdERc" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+                    </a>
+                    <div class="video-time">3:05</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@SyrexNightcore" target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=eLJLNshdERc" target="_self">
+                            <p class="video-title">Nightcore - Nevada - (Lyrics)</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@SyrexNightcore" target="_self">
+                            <p class="video-author">Syrex</p>
+                        </a>
+                        <p class="video-stats">3.5M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=fFnrTLl5eIo" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+                    </a>
+                    <div class="video-time">3:08</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/channel/UC0LuDMoX7zvvEHUKoxKPmyg"
+                            target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-11.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=fFnrTLl5eIo" target="_self">
+                            <p class="video-title">moonlight romance - lo-fi edit</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/channel/UC0LuDMoX7zvvEHUKoxKPmyg"
+                            target="_self">
+                            <p class="video-author">Hawys</p>
+                        </a>
+                        <p class="video-stats">2.4M views &#183; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a class="thumbnail-link" href="https://www.youtube.com/watch?v=KaOC9danxNo" target="_self">
+                        <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+                    </a>
+                    <div class="video-time">5:31</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a class="channel-picture-link" href="https://www.youtube.com/@RareEarthSeries" target="_self">
+                            <img class="profile-picture" src="channel-pictures/channel-12.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=KaOC9danxNo" target="_self">
+                            <p class="video-title">Space Oddity</p>
+                        </a>
+                        <a class="video-author-link" href="https://www.youtube.com/@RareEarthSeries" target="_self">
+                            <p class="video-author">Rare Earth</p>
+                        </a>
+                        <p class="video-stats">53M views &#183; 10 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
